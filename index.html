@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Product Page</title>
+
+</head>
+
+    <body>
+        <!-- header -->
+        <div class="background-color">
+            <header class="primary-header">
+                <div class="wrapper">
+                    <div class="primary-header_inner">
+                        <span class="logo">SYNC</span>
+                        <nav>
+                            <ul class="nav-list" id="MenuItems">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Account</a></li>
+                            </ul>
+                        </nav>
+                        <img src="./images/cart.png" width="30px" height="30px" class="shopping-cart">
+                        <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+                    </div>
+                </div>
+            </header>
+    
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-2">
+                        <h1>Give Your Workout<br>A <span class="hero-style">New Style</span>!</h1>
+                        <p>Success isn't always about greatness. It's about consistency. Consistent<br>hard work gains success. Greatness will come.</p>
+                        <a href="" class="btn">Explore Now &#8594;</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="./images/hero/syncUpHero02.png">
+        
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- --Second container-- -->
+
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="./images/clothes/category-1.png">
+                    </div>
+                    <div class="col-3">
+                        <img src="./images/clothes/category-2.png">
+                    </div>
+                    <div class="col-3">
+                        <img src="./images/clothes/category-3.png">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- --Third container-- -->
+
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="./images/clothes/m2cyclingjersey.png">
+                    <h4>M2 Westfalia Men's Short Sleeve Cycling Jersey</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$79.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/clothes/cyclingGloves.png">
+                    <h4>DV Flash Half Finger Gel Padded Cycling Gloves</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$32.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/clothes/nikecycle2shoes.png">
+                    <h4>Nike SuperRep Cycle 2 <br>Shoes</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$180.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/clothes/adidasCyclingShorts.png">
+                    <h4>Adidas Originals Adicolor Cycling Shorts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$29.99</p>
+                </div>
+            </div>
+
+            <!-- --Latest Products-- -->
+
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="./images/clothes/product-5.jpg">
+                    <h4>C2 CityNite Cycling Shoes</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$49.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/clothes/product-6.jpg">
+                    <h4>Puma Black Stripes T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$39.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/clothes/product-7.jpg">
+                    <h4>HRX Sports Socks 3-Pack</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$29.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/clothes/product-8.jpg">
+                    <h4>Fossil Modern Classic Watch</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$149.99</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="./images/clothes/product-9.jpg">
+                    <h4>ROADSTER Defined Watch</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$189.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/clothes/product-10.jpg">
+                    <h4>HRX Red Rugged Series Shoes</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$89.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/clothes/product-11.jpg">
+                    <h4>ROADSTER Minimal M Shoes</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$69.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/clothes/product-12.jpg">
+                    <h4>Nike Classic Trackies</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$49.99</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- --Exclusive Offers-- -->
+
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="./images/clothes/exclusive.png" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively Available on SYNC<span class="up-logo">UP</span></p>
+                        <h1>Smart Band 4</h1>
+                        <small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED colour full-touch display with adjustable brightness, so everything is clear as can be.</small>
+                        <a href="" class="btn">Buy Now &#8594;</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- --Testimonial-- -->
+
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa-sharp fa-solid fa-quote-left"></i>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <img src="./images/user-1.png">
+                        <h3>Leslie Rachels</h3>
+                    </div>
+
+                    <div class="col-3">
+                        <i class="fa-sharp fa-solid fa-quote-left"></i>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <img src="./images/user-2.png">
+                        <h3>Mike Smith</h3>
+                    </div>
+
+                    <div class="col-3">
+                        <i class="fa-sharp fa-solid fa-quote-left"></i>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <img src="./images/user-3.png">
+                        <h3>Mabel Joe</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <!-- --Brands-- -->
+
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="./images/logo-adidas.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/logo-nike.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/logo-underarmour.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/logo-paypal.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/logo-hrx.png">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- --Footer-- -->
+
+        <div class="footer">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="./images/play-store.png">
+                            <img src="./images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="./images/syncUpStyles-mainlogo.png">
+                        <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Cycling Attire Accessible to the Many.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2023 - Phil 4000 Studios</p>
+            </div>
+        </div>
+
+
+    <script src="index.js"></script>
+    </body>
+</html>
