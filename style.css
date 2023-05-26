@@ -125,6 +125,7 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
 
 .col-2 {
@@ -137,6 +138,35 @@ nav {
     max-width: 100%;
     padding: 50px 0;
 
+}
+
+#transparent-hero {
+    display: none;
+}
+
+.split-container {
+    position: relative;
+    width: 650px;
+    height: 650px;
+}
+
+.split-container img {
+    max-width: 100%;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+#herosplit1 {
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+#herosplit2 {
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 
@@ -445,5 +475,17 @@ ul {
 
     .col-2, .col-3, .col-4 {
         flex-basis: 100%;
+    }
+
+    .split-container img {
+        position: relative;
+    }
+
+    #transparent-hero {
+        display: block;
+    }
+
+    .split-container {
+        display: none;
     }
 }
